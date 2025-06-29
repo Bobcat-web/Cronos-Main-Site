@@ -1,0 +1,158 @@
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+#drow-box {
+  height: 100vh;
+  width: 50vw;
+  background-color: rgb(12, 14, 9);
+  overflow: hidden;
+  position: relative;
+}
+.main-logo {
+  height: 18vh;
+  margin: 2% 0% 0% 2%;
+  z-index: 1;
+}
+.description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin: 72% 0% 0% 2%;
+  color: rgb(238, 244, 244);
+  z-index: 1;
+}
+.main-gif {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 50vw;
+  z-index: -5;
+}
+.author {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0;
+  left: 50vw;
+  margin: 2% 0% 0% 2%;
+  z-index: 1;
+}
+.menu-list {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0;
+  left: 93vw;
+  margin: 2% 0% 0% 2%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.stuff-descript {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 5% 0% 0% 25%;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+}
+.cont {
+  height: 15vh;
+  transition: transform 0.3s ease;
+}
+.stuff-blocks {
+  margin: 8% 2% 0% 2%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+/* .line{
+    border: none; 
+    height: 2px;
+    background-color: #000;
+    width: 95%;
+    margin: 5% 0% 0% 2%;
+} */
+.usual {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin: 5% 2% 0% 2%;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  margin: 8% 2% 0% 2%;
+}
+.item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  padding: 2vw;
+  text-align: center;
+  position: relative;
+  border-bottom: 2px solid #000000;
+}
+.tpo {
+  border-top: 2px solid #000000;
+}
+.building-descript {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 5% 0% 0% 25%;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 10vh;
+}
+.gallery img {
+  max-height: 300px;
+  width: calc(45% - 10px);
+  margin-bottom: 70px;
+  object-fit: cover;
+}
+.motion-logo {
+  width: 100%;
+  margin: 5% auto;
+  z-index: 1;
+}
+.final-word {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 5% 0% -5% 25%;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+}
+.grid-container.last {
+  margin-bottom: 5%;
+}
+#drow-box {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  background-color: black;
+}
+.trail-line {
+  position: absolute;
+  background-color: white;
+  transform-origin: left center;
+  pointer-events: none;
+}

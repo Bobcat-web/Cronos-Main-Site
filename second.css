@@ -1,0 +1,190 @@
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.meeting {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.back {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin: 2% 0% 0% 2%;
+  z-index: 1;
+}
+.author {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin: 2% 2% 0% 0%;
+  z-index: 1;
+}
+.motion-logo {
+  width: 100%;
+  margin: 5% auto;
+  z-index: 1;
+}
+.purpose {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  margin: 2% 2% 0% 2%;
+  z-index: 1;
+}
+.rules {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  margin: 2% 2% 0% 2%;
+  z-index: 1;
+}
+.descr {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.stuff {
+  width: 15vw;
+  margin: 5% 2% 5% 2%;
+  transition: transform 0.3s ease;
+}
+.stuff:hover {
+  transform: scale(1.1);
+}
+.child2 {
+  margin-left: 16%;
+}
+.child3 {
+  margin-left: 0%;
+}
+.child4 {
+  margin-left: 12%;
+}
+.child6 {
+  margin-left: 0%;
+}
+.child7 {
+  margin-left: 14%;
+}
+.child8 {
+  margin-left: 14%;
+}
+.child10 {
+  margin-left: 16%;
+}
+.child11 {
+  margin-left: 16%;
+}
+.child13 {
+  margin-left: 32%;
+}
+.grid-container.last {
+  margin-bottom: 5%;
+}
+
+.trail-line {
+  position: absolute;
+  background-color: white;
+  transform-origin: left center;
+  pointer-events: none;
+}
+.item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  padding: 2vw;
+  text-align: center;
+  position: relative;
+  border-bottom: 2px solid #000000;
+}
+.tpo {
+  border-top: 2px solid #000000;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2% 2% 0% 2%;
+}
+.purp {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  margin: 2% auto;
+  z-index: 1;
+}
+.price1 {
+  position: absolute;
+  top: 110%;
+  left: 8%;
+}
+.price2 {
+  position: absolute;
+  top: 110%;
+  left: 41.5%;
+}
+.price3 {
+  position: absolute;
+  top: 110%;
+  left: 58.5%;
+}
+.price4 {
+  position: absolute;
+  top: 110%;
+  left: 88.5%;
+}
+.price5 {
+  position: absolute;
+  top: 157%;
+  left: 8%;
+}
+.price6 {
+  position: absolute;
+  top: 157%;
+  left: 25.5%;
+}
+.price7 {
+  position: absolute;
+  top: 157%;
+  left: 57%;
+}
+.price8 {
+  position: absolute;
+  top: 157%;
+  left: 88.3%;
+}
+.price9 {
+  position: absolute;
+  top: 204.5%;
+  left: 7.5%;
+}
+.price10 {
+  position: absolute;
+  top: 204.5%;
+  left: 41%;
+}
+.price11 {
+  position: absolute;
+  top: 204.5%;
+  left: 74%;
+}
+.price12 {
+  position: absolute;
+  top: 252%;
+  left: 7.5%;
+}
+.price13 {
+  position: absolute;
+  top: 252%;
+  left: 57.2%;
+}
