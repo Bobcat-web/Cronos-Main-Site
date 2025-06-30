@@ -1,0 +1,31 @@
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  background-color: black;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+}
+.mis {
+  width: 70%;
+  margin: 10% auto;
+  display: flex;
+  justify-items: center;
+}
+.back {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
