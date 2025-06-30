@@ -94,15 +94,83 @@ h2 {
 }
 button {
   padding: 10px 20px;
+  margin-top: 5%;
   background-color: rgb(184, 184, 184);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   border: none;
   cursor: pointer;
   width: 200px;
+  color: #ffffff;
 }
 .class-Edge {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 500%;
+}
+.class-Edge img {
+  width: 100%;
+}
+.class-Me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500%;
+}
+.class-Me img {
+  width: 100%;
+}
+.class-Silk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500%;
+}
+.class-Silk img {
+  width: 100%;
+}
+.event-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+  gap: 1%;
+}
+.desc-class {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.Alone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500%;
+}
+.Alone img {
+  width: 100%;
+}
+.Light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500%;
+}
+.Light img {
+  width: 100%;
+}
+.World {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500%;
+}
+.World img {
+  width: 100%;
 }
